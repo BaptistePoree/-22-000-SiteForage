@@ -55,4 +55,5 @@ $nav = [
 
 require_once('./general/structure/top.vue.php');
 require_once('./menu/structure/menu.vue.php');
+require_once('./home/structure/home.vue.php');
 require_once('./general/structure/bottom.vue.php');
