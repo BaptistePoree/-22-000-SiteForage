@@ -10,9 +10,12 @@ FORGE /
   │    ├── general /
   │    │     ├── css /
   │    │     │    └── root.css
+  │    │     │    
   │    │     ├── img /
+  │    │     │
   │    │     ├── js /
   │    │     │    └── jquery-3.6.0.min.js
+  │    │     │    
   │    │     └── structure /
   │    │          ├── bottom.vue.php
   │    │          └── top.vue.php
@@ -20,13 +23,17 @@ FORGE /
   │    ├── menu /
   │    │     ├── css /
   │    │     │    └── menu.css
+  │    │     │    
   │    │     ├── js /
   │    │     │    └── menu.mobile.js
+  │    │     │    
   │    │     └── structure /
   │    │          └── menu.vue.php
   │    │
   │    ├── config.php
+  │    │
   │    ├── index.php
+  │    │
   │    └── Router.php
   │    
   ├── .gitignore
