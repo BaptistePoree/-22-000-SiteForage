@@ -4,7 +4,7 @@ Site qui fait un listing des projet en idee/cour de création/fini
 
 ## Projet Atchitecture
 
-<pre><code>
+```bash 
 FORGE /
   ├── src /
   │    ├── general /
@@ -31,15 +31,13 @@ FORGE /
   │    │          └── menu.vue.php
   │    │
   │    ├── config.php
-  │    │
   │    ├── index.php
-  │    │
   │    └── Router.php
   │    
   ├── .gitignore
   ├── CHANGELOG.md
   └── README.md
-</code></pre>
+```
 
 ### Legende du CHANGELOG
 
