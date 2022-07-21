@@ -6,9 +6,15 @@ require_once("model/bdd/imageData/ImageDataListeProjet.php");
 class ListeProjet implements InterfaceStorage
 {
     protected $vue;
+    protected $listeprojet;
 
     public function __construct(Vue $vue = null)
-    {   $this->vue = $vue;  }
+    {   $this->vue = $vue;  
+        $this->listeprojet = [ 
+            1 => ['id' => 1, 'name' => '7 famille', 'detail' => '', 'lienVue' => '', 'lienGit' => ''],
+            2 => ['id' => 2, 'name' => '2048', 'detail' => '', 'lienVue' => '', 'lienGit' => ''], 
+        ];
+    }
 
     public function create(Object $c)
     { }
