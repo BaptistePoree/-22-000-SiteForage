@@ -6,12 +6,12 @@
 ?>
 
 <header>
-    <a class="logo" href="<?= $nav['home']['src'] ?>">
-        <?php require_once('./general/img/logo/Forge_Logo.svg') ?>
+    <a class="logo" href="<?= $this->tableNav['home']['src'] ?>">
+        <?php require_once('./prog/general/img/logo/Forge_Logo.svg') ?>
     </a>
     <nav>
         <ul class="nav_links">
-            <?php foreach ($nav as $key => $detail) : ?>
+            <?php foreach ($this->tableNav as $key => $detail) : ?>
                 <li class="nav_<?= $key ?>">
                     <a href="<?= $detail['src'] ?>">
                         <div class="text_<?= $key ?>">
@@ -39,7 +39,7 @@
         &times;
     </a>
     <div class="overlay_content">
-        <?php foreach ($nav as $key => $detail) : ?>
+        <?php foreach ($this->tableNav as $key => $detail) : ?>
             <a href="<?= $detail['src'] ?>">
                 <div class="text_<?= $key ?>">
                     <?= $detail['titre'] ?>
