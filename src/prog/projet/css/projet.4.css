@@ -1,0 +1,4 @@
+.fondBlindTest{
+    background: gray /* linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 24, 54) 49.9%, rgb(0, 0, 0) 50%) 0% 0% / 200% 100%*/;
+    animation: 92s linear 0s infinite normal none running BGCountdown;
+}

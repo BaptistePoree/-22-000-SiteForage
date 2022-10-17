@@ -5,55 +5,56 @@
  */
 ?>
 <!-- <div class="body projet"> -->
-    <!-- <div class="fond compteur">
+<!-- <div class="fond compteur">
         <div id="compteur" class="ecriture compteur textCentreEcrant textMidel text20px"> </div>
     </div> -->
 
 
 
-    <!-- <div class="fond plateauDeJeux"> -->
-        <!-- <div id="0" class="placement plateauDeJeux container"> -->
-        <!-- <div class="progess-steps-container"> -->
-        <!-- <div class="step-progression" id="stepProgression"></div> -->
-        <!-- ajoute les autre point de progression en Js -->
-        <!-- </div> -->
+<!-- <div class="fond plateauDeJeux"> -->
+<!-- <div id="0" class="placement plateauDeJeux container"> -->
+<!-- <div class="progess-steps-container"> -->
+<!-- <div class="step-progression" id="stepProgression"></div> -->
+<!-- ajoute les autre point de progression en Js -->
+<!-- </div> -->
 
-        <!-- <div class="row">
+<!-- <div class="row">
                 <button id="prevBtn" class="btn btn-primary"> Prev </button>
                 <button id="nextBtn" class="btn btn-primary"> Next </button>
             </div> -->
-        <!-- </div> -->
+<!-- </div> -->
 
-        <!-- <div class="textCentreEcrant plateauDeJeux textClaire">
+<!-- <div class="textCentreEcrant plateauDeJeux textClaire">
             <div class="extrait plateauDeJeux text20px">Extrait n°</div>
             <div class="nbExtrait plateauDeJeux text20px"></div>
         </div> -->
-        <!-- <div class="fond affichageJeux plateauDejeux">
+<!-- <div class="fond affichageJeux plateauDejeux">
             </br>
             <div class="nomExtrait plateauDeJeux textCentreEcrant text20px"></div> -->
 
-            <!-- <div class="afficheDuFilm plateauDeJeux"> -->
-                <!-- <audio src="" controls></audio> -->
-                <!-- <audio controls="controls" autoplay="autoplay" loop="loop"> -->
-                    <!-- <source src=" ./prog/projet/suport/projet4/media/Le Parrain.mp3" type="audio/mpeg"> -->
-                <!-- </audio>
+<!-- <div class="afficheDuFilm plateauDeJeux"> -->
+<!-- <audio src="" controls></audio> -->
+<!-- <audio controls="controls" autoplay="autoplay" loop="loop"> -->
+<!-- <source src=" ./prog/projet/suport/projet4/media/Le Parrain.mp3" type="audio/mpeg"> -->
+<!-- </audio>
             </div> -->
 
-            <!-- <div class="actionGeneral maitreDuJeux plateauDeJeux">
+<!-- <div class="actionGeneral maitreDuJeux plateauDeJeux">
                 <div class="action ok maitreDuJeux plateauDeJeux"></div>
                 <div class="action notok maitreDuJeux plateauDeJeux"></div>
                 <div class="action passe maitreDuJeux plateauDeJeux"></div>
             </div> -->
 
-            <!-- <div class="actionAfficheGeneral maitreDuJeux plateauDeJeux"> -->
-                <!-- <div class="actionAfficher son plateauDeJeux"> </div> -->
-                <!-- <div class="actionAfficher reponse plateauDeJeux"> </div> -->
-                <!-- <div class="actionAfficher parametre plateauDeJeux">
+<!-- <div class="actionAfficheGeneral maitreDuJeux plateauDeJeux"> -->
+<!-- <div class="actionAfficher son plateauDeJeux"> </div> -->
+<!-- <div class="actionAfficher reponse plateauDeJeux"> </div> -->
+<!-- <div class="actionAfficher parametre plateauDeJeux">
                     <a class="parametre actionParametre" href="">
-                        <?php //require_once("./prog/general/img/option/control-panel.svg"); ?>
+                        <?php //require_once("./prog/general/img/option/control-panel.svg"); 
+                        ?>
                     </a>
                 </div> -->
-            <!-- </div> 
+<!-- </div> 
         </div>
     </div>
 </div> -->
@@ -106,14 +107,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
 </head> -->
 
-<body 
- style="background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 24, 54) 49.9%, rgb(0, 0, 0) 50%) 0% 0% / 200% 100%; animation: 92s linear 0s infinite normal none running BGCountdown;"
->
-    <iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="♫Avatar Soundtrack♫" src="https://www.youtube.com/embed/Jxq_133jEtQ?autoplay=1&amp;disablekb=1&amp;start=45&amp;origin=https%3A%2F%2Fastucesweb.fr&amp;enablejsapi=1&amp;widgetid=3" width="0" height="0" frameborder="0"></iframe>
-    <div id="lll" style="display:none;height:0;visibility:hidden"><audio controls="" loop="">
-            <source src="blindtest.mp3" type="audio/mp3">
-        </audio></div>
-    <div class="valign" id="valignDiv">
+<body class="fondBlindTest">
+    <iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="♫Avatar Soundtrack♫" src="https://www.youtube.com/embed/pNfMOtPywCM?autoplay=1&amp;disablekb=1&amp;start=0&amp;origin=https%3A%2F%2Fastucesweb.fr&amp;enablejsapi=1&amp;widgetid=3" width="0" height="0" frameborder="0"></iframe>
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/4MR6D7tL38U?controls=0&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <!-- <div id="lll" style="display:none;height:0;visibility:hidden"><audio controls="" loop="">
+            <source src="../suport/projet4/media/Le_Parrain.mp3" type="audio/mp3">
+        </audio>
+    </div> -->
+    <!-- <div class="valign" id="valignDiv">
         <div id="start" style="display: none;">
             <div id="albumImg" class="autoMargin"></div>
             <h3>La bonne réponse était : <strong id="bonneRep"></strong></h3><br><button onclick="startSong(3)" id="startButton">Extrait suivant</button><br>
@@ -128,22 +129,22 @@
         <div id="answers" class="none" style="display: none;"></div>
     </div>
     <span id="temps" class="none timeClock" style="display: block;"><span id="tpsVal">39</span></span>
-    <span id="score">Score : <span id="scoreLabel">539</span><br><span id="songState">Extrait <strong>3</strong>/10</span><span id="toFind"> - le film à retrouver</span></span>
+    <span id="score">Score : <span id="scoreLabel">539</span><br><span id="songState">Extrait <strong>3</strong>/10</span><span id="toFind"> - le film à retrouver</span></span> -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
 
-    <script src="https://js.sentry-cdn.com/b8c218c8c09a40a28aa136dc9896dc4d.min.js" crossorigin="anonymous"></script>
-    <script>
+    <!-- <script src="https://js.sentry-cdn.com/b8c218c8c09a40a28aa136dc9896dc4d.min.js" crossorigin="anonymous"></script> -->
+    <!-- <script>
         Sentry.onLoad(function() {
             Sentry.init({
                 dsn: 'https://b8c218c8c09a40a28aa136dc9896dc4d@o162010.ingest.sentry.io/1228890',
                 release: "blind-test@1.1",
             });
         });
-    </script>
+    </script> -->
 
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-66939271-1"></script>
-    <script>
+    <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-66939271-1"></script> -->
+    <!-- <script>
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
@@ -151,12 +152,12 @@
         }
         gtag('js', new Date());
         gtag('config', 'UA-66939271-1');
-    </script>
-    <script src="bt-js.js.php" crossorigin="anonymous"></script>
+    </script> -->
+    <!-- <script src="bt-js.js.php" crossorigin="anonymous"></script> -->
 
 </body>
 
-    </br>
+</br>
 <!--  <body style="background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 24, 54) 49.9%, rgb(0, 0, 0) 50%) 0% 0% / 200% 100%; animation: 92s linear 0s infinite normal none running BGCountdown;">
     <iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="♫Avatar Soundtrack♫" src="https://www.youtube.com/embed/Jxq_133jEtQ?autoplay=1&amp;disablekb=1&amp;start=45&amp;origin=https%3A%2F%2Fastucesweb.fr&amp;enablejsapi=1&amp;widgetid=3" width="0" height="0" frameborder="0"></iframe>
     <div id="lll" style="display:none;height:0;visibility:hidden"><audio controls="" loop="">
