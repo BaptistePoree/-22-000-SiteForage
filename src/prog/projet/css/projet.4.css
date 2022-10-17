@@ -1,0 +1,204 @@
+.body.projet
+{
+    height: 800px;
+}
+
+/* Fond ecrent */
+.fond.compteur
+{
+    background-color: #00ffff;
+    height: 10%;
+}
+
+.fond.plateauDeJeux
+{
+    background-color: #000;
+    height: 100%;
+}
+
+.fond.affichageJeux
+{
+    background-color:#636363;
+    height: 100%;
+}
+
+
+
+/* Texte Centre dans l'ecrant */
+
+.textCentreEcrant {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vh;
+}
+
+/* Compteur plusieur étapes */
+
+.placement.plateauDeJeux.container
+{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* color : #fff; */
+}
+
+.progess-steps-container
+{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 80%;
+    margin: 15px 0;
+}
+
+.progess-steps-container .step-number
+{
+    width: 30px;
+    height: 30px;
+    
+    border: 3px solid var(--step-color-disanled);
+    border-radius: 50%;
+
+    font: 16px arial;
+    /* ? */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--step-color-disanled);
+
+    z-index: 1;
+    transition: border 0.4s ease-in;
+    cursor: pointer;
+}
+
+.step-number.active
+{
+    border: 3px solid var(--step-color-active);
+    color: var(--step-color-active);
+}
+
+.progess-steps-container::before
+{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 3px;
+    top: 50%;
+    left: 0;
+
+    transform: translate(0, -50%);
+    background-color: var(--step-color-disanled);
+    z-index: -1;
+}
+
+.step-progression
+{
+    position: static;
+
+    margin-top: 15px;
+    width: 2%;
+    height: 3px;
+    top: 50%;
+    left: 0;
+
+    transform: translate(0, -50%);
+    background-color: var(--step-color-active);
+    transition: width 0.4s ease-in;
+    z-index: 1;
+}
+
+.step-progression.disanbled
+{
+    background-color: var(--step-color-disanled);
+}
+
+.step-progression.active 
+{
+    background-color: var(--step-color-active);
+}
+
+button
+{
+    margin: 0 5px;
+}
+
+
+/* Tableau compteur */
+
+.placement.plateauDeJeux
+{
+    width: 100%;
+    height: 35px;
+    padding-bottom: 15px;
+}
+
+td
+{
+    border: 1px solid beige;
+}
+
+td.complete
+{
+    background-color: chartreuse;
+}
+
+/* Plateau de jeux */
+
+.extrait
+{
+    float: left;
+}
+
+/* Affiche du film */
+
+.afficheDuFilm 
+{
+    /* background-color: #808080b4; */
+    border: solid;
+    border-color: pink;
+    height: 50%;
+    /* width: 50%; */
+    
+    margin-top: 20vh;
+    margin-right: 20%;
+    /* margin-bottom: 20%; */
+    margin-left: 20%;
+}
+
+.parametre
+{
+    background-color: red;
+}
+
+/* Display */
+
+.displaynone
+{
+    display: none;
+}
+
+/* Taille de la police */
+
+.text20px
+{
+    font-size: 20px;
+}
+
+.fond.compteur>.textMidel 
+{
+    padding-top: 25px;
+}
+
+.textClaire
+{
+    color: beige;
+}

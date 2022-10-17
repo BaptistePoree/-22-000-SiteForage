@@ -1,0 +1,19 @@
+.scroller {
+    width: 500px;
+    height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #aa0202 gray;
+}
+
+.cellLien{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-text-color-dack);
+}
+
+/* Display */
+
+.displaynone {
+    display: none;
+}

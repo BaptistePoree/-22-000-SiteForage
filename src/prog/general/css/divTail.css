@@ -1,0 +1,39 @@
+/* Dimantion en %*/
+
+.div5{
+    width: 5%;
+}
+
+.div14{
+    width: 15%;
+}
+
+.div50 {
+    width: 50%;
+}
+
+.div70{
+    width: 70%;
+}
+
+.div100{
+    width: 100%;
+}
+
+/* Dimantion en px*/
+
+.div50px {
+    width: 50px;
+}
+
+.div100px {
+    width: 100px;
+}
+
+.div150px {
+    width: 150px;
+}
+
+.div1000px {
+    width: 1000px;
+}
