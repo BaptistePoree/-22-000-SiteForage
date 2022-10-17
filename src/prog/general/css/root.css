@@ -1,9 +1,19 @@
 :root {
     --main-bg-color-dack: #24252a;
     --main-bg-color-light: #e6e6e6;
+    --main-text-color-dack: #161313;
+    --main-text-color-grey: #8f8f8f;
     --main-text-color-light: #edf0f1;
     --main-text-hover-color-blue: #00b6e4;
     --main-text-titre-color-blue: #00657e;
+    --main-bg-front-dack: #777777e0;
+
+    --step-color-active: blue;
+    --step-color-disanled: beige;
+    --progession-width: 33%;
+
+    --projet-bg-front-green-dack: #1d582c;
+    --projet-bg-front-green-light: #3a9b52;
 }
 
 * {

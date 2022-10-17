@@ -18,6 +18,12 @@ class Router
                 case 'Liste':
                     $controle->makeListePage();
                     break;
+                case 'Projet':
+                    $vue->makeProjet();
+                    break;
+                case 'ProjetId':
+                    $vue->makeProjetId($_GET);
+                    break;
                 default:
                     $vue->makehomePage();
                     break;

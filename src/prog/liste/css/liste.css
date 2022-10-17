@@ -1,10 +1,19 @@
-.body {
-    margin-left: 10px;
+.body.listeProjet {
+    margin-left: 20px;
+}
+
+.divGeneralTableau.divTable{
+    width: 1000px;
+}
+
+.scroller{
+    width: 1000px;
+    height: 50vh;
+    overflow-x: hidden;
 }
 
 .divTable {
     display: table;
-    width: 20%;
     border: 1px solid #000
 }
 
@@ -43,8 +52,13 @@
 .divTableCellText {
     font-size: 16px;
     line-height: 22px;
-    white-space: pre;
+    white-space: normal; /*pre*/
 }
+
+.cellLien{
+    padding: 15px;
+}
+
 
 /***********************************/
 /* 

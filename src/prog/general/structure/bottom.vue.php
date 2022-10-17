@@ -1,17 +1,19 @@
 <?php
+
 /**
  * Ficher qui génere la base du pied de page
  */
 ?>
 
-        <script src="<?= add_version('./prog/general/js/jquery-3.6.0.min.js') ?>"></script>
-        <?php foreach ($this->table['js']['listSCRBottom'] as $value) : ?>
-            <script type="<?php echo $this->table['js']['type'] ?>" 
-                src="<?php echo add_version($value) ?>">
+    <script src="<?= add_version('./prog/general/js/jquery-3.6.0.min.js') ?>"></script>
+    <?php foreach ($this->table->getJs()['listSCRBottom'] as $value) : ?>
+        <script type="<?php echo $this->table->getJs()['type'] ?>" 
+            src="<?php echo $value ?>">
+        </script>
 
-            </script>
-        <?php endforeach; ?>
+    <?php endforeach; ?>
 
-    </body>
+
+</body>
 
 </html>

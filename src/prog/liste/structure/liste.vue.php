@@ -4,38 +4,49 @@
  * 
  */
 ?>
-<div class="body">
+<div class="body listeProjet">
     <h3>Liste des Projets</h3>
 
-    <div class="divTable">
+
+    <div class="divGeneralTableau divTable">
         <div class="divTableHeading">
             <div class="divTableRow">
-                <div class="divTableCell">
+                <div class="div5 divTableCell">
                     <div class="divTableCellText">
-                        <div><span>Status </br>(id&eacute;e, en cour, fini)</span></div>
+                        <div><span>id</span></div>
                     </div>
                 </div>
-                <div class="divTableCell">
+                <div class="div70 divTableCell">
                     <div class="divTableCellText">
                         <div><span>Nom du projet</span></div>
                     </div>
                     &nbsp;
                 </div>
-                <div class="divTableCell">
+                <div class="div14 divTableCell">
                     <div class="divTableCellText">
-                        <div><span>description</span></div>
+                        <div><span>Status </br>(id&eacute;e, en cour, fini)</span></div>
                     </div>
-                    &nbsp;
                 </div>
             </div>
         </div>
-        <div class="divTableBody">
-            <div class="divTableRow">
-                <div class="divTableCell"> &nbsp; </div>
-                <div class="divTableCell"> &nbsp; </div>
-                <div class="divTableCell"> &nbsp; </div>
+    </div>
+    <div class="scroller">
+        <div class="divGeneralTableau divTable ">
+            <!-- <div class="scroller"> -->
+            <div class="divTableBody">
+                <?php foreach ($tableauProjet as $key => $valeur) : ?>
+                    <?php if ($key !== 0) : ?>
+                        <div class="divTableRow">
+                            <div class="div5  divTableCell"> <?= $key ?> </div>
+                            <div class="div70 divTableCell"> <a class="cellLien" href="?action=Projet&nom=<?=$valeur[0]?>&key=<?=$key?>"> <?= $valeur[0] ?> </a> </div>
+                            <div class="div14 divTableCell"> <?= $valeur[1] ?> </div>
+                        </div>
+                    <?php endif; ?>
+                <?php endforeach ?>
             </div>
         </div>
+    </div>
+    <div class="divGeneralTableau divTable">
         <!-- <div class="blueTable outerTableFooter">
             <div class="divTableFoot">
                 <div class="links">
@@ -49,4 +60,5 @@
             </div>
         </div> -->
     </div>
+
 </div>
