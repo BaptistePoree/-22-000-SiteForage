@@ -11,10 +11,6 @@ class ListeProjet //implements InterfaceStorage
     public function __construct(Vue $vue = null)
     {   $this->vue = $vue;  
         $this->listeprojet = $this->initTableau();
-        // [ 
-        //     1 => ['id' => 1, 'name' => '7 famille', 'detail' => '', 'lienVue' => '', 'lienGit' => ''],
-        //     2 => ['id' => 2, 'name' => '2048', 'detail' => '', 'lienVue' => '', 'lienGit' => ''], 
-        // ];
     }
 
     public function create(Object $c)
