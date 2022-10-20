@@ -26,7 +26,7 @@
                     </div>
                     <div class="div50 divTableCell">
                         <?php if ($key === 'Lien Vue') : ?>
-                            <a class="cellLien" href="?action=ProjetId&key=<?= $projet['Id'] ?>"><?= $projet['Nom'] ?></a>
+                            <a class="cellLien" href="?action=ProjetId&key=<?= $projet['Id'] ?>&testAudio=1"><?= $projet['Nom'] ?></a>
                         <?php else : ?>
                             <?= $value ?>
                         <?php endif; ?>

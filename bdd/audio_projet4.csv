@@ -1,7 +1,7 @@
 id,titre,lienYT,temp,img,idTheme
-1,cinquieme element,4MR6D7tL38U,10,,1
+1,Cinquieme element,4MR6D7tL38U,195,,1
 2,Jurassic park,D8zlUUrFK-M,0,,1
-3,Ghost Busters,m9We2XsVZfc,0,,1
+3,Ghost Busters,NmpFm-TMVE8,0,,1
 4,Indiana Jones,pNfMOtPywCM,0,,1
 5,Supperman,e9vrfEoc8_g,0,,1
 6,Star Wars,sFvQOc4xS2k,0,,1
@@ -30,7 +30,7 @@ id,titre,lienYT,temp,img,idTheme
 29,Le Seigneur des Anneaux,PjJa9ZeoY8s,0,,1
 30,la petite maison dans la prairie,E9YZzuhBLs4,0,,2
 31,Ma sorciere bien aimee,QQdTYThC9CI,0,,2
-32,la 7eme compagnie,03,,1
+32,la 7eme compagnie,e5wt71pRA_Y,03,,1
 33,Inception,h2SXKI3m14s,0,,1
 34,Brice,E7oWe5t6CGk,07,,1
 35,Kingsman,MW2mGpBDLO0,0,,1
@@ -48,10 +48,10 @@ id,titre,lienYT,temp,img,idTheme
 47,Braveheart,9AN04imFDK8,0,,1
 48,Les gendarme de st tropez,chDjya8jDEU,0,,1
 49,La folie des grandeurs,faG7QNNPHw0,0,,1
-50,Agence Tous Risques,8nx6DH0d-DQ,0,,2
+50,Agence Tous Risques,8nx6DH0d-DQ,20,,2
 51,Interstellar,UDVtMYqUAyw,0,,1
 52,Pearl Harbor,opP4PcZ7aN4,0,,1
-53,The Last of the Mohicans,uzMx60ea_gI,0,,1
+53,The Last of the Mohicans,uzMx60ea_gI,18,,1
 54,La Soupe aux Choux,MV6eqL4lskQ,0,,1
 55,Les Visiteurs,LVJbmYwfuxY,0,,1
 56,Avatar,Jxq_133jEtQ,0,,1
@@ -79,7 +79,7 @@ id,titre,lienYT,temp,img,idTheme
 78,Urgences,lOfpKfQpDuc,0,,2
 79,Grey's Anatomy,ndNAOTYkuEU,0,,2
 80,Dawson,683HJlKGSuE,0,,2
-81,Sous le Soleil,uvrKAbth-Mw,0,,2
+81,Sous le Soleil,xefeYYsKwbg,0,,2
 82,Ptison Break,6REdHO3StZo,0,,2
 83,Desperate Housewives,8K3I_UMPQ9k,0,,2
 84,Buffy,1LT7m5lu_Zg,0,,2
@@ -96,17 +96,17 @@ id,titre,lienYT,temp,img,idTheme
 95,Un Dos Tres,pCLQPg6lcKM,0,,2
 96,Dark Angel,gDwqc8oGzkQ,0,,2
 97,Angel,DVJckNqDmOA,0,,2
-98,Narnia,XUfBZ491IVU,06,,1
-99,Twilight,zyGQE7dHm4k,0,,1
+98,Narnia,XUfBZ491IVU,40,,1
+99,Twilight,rtOvBOTyX00,0,,1
 100,Prince of Persia,s9Wk-09powE,0,,1
 101,Mummy,LUulppSi6Ls,0,,1
 102,The Mortal Instruments,wR3W3Boxkcs,0,,1
 103,Sauver Willy,ghB7Uhh0LRU,25,,1
 104,Hunger Games,zvvfHmeKOJc,0,,1
 105,Asterix et Obelix,liDMGofHVRw,0,,1
-106,l arme fatale,0ZCZZvv5gZM,0,,1
+106,l arme fatale,1UNBHp52KGM,0,,1
 107,Judge Dredd,Bj27LLLELe4,0,,1
-108,X Men,q0xi0XIsBBY,0,,1
+108,X Men,RV8wN-VX32U,0,,1
 109,Le Parrain,QK736KcqdK4,0,,1
 110,Leon,QK-Z1K67uaA,0,,1
 111,Le Hobbit,SvJ9UMQ9k9g,0,,1
@@ -123,33 +123,32 @@ id,titre,lienYT,temp,img,idTheme
 122,Predators,oXnAxydhZ8M,50,,1
 123,Alien vs Predator,oEq0igEmMQ0,0,,1
 124,Project X,l3NDGw45bVo,0,,1
-125,La Casa De Papel,F1oHBcTdKL4,0,,2
+125,La Casa De Papel,Zx37mfDRpyk,0,,2
 126,Monk,7j5Be5a86uA,04,,2
 127,Alias,RzlNXUC8gVc,0,,2
-128,L Histoire Sans Fin,Pohewlibbsg,0,,1
+128,L Histoire Sans Fin,hXJQOnT0xAM,0,,1
 129,Fast and Furious,RgKAFK5djSk,0,,1
 130,Hitman,WEh44ztzOvg,0,,1
 131,Et Pour Quelques Dollars de Plus,swphPymGltY,0,,1
-132,La liste de Schindler s,aX2qP3gP_Vs,0,,1
+132,La liste de Schindler s,-c0gLBZ4CzA,0,,1
 133,Austin Powers,ripdiYe8MUA,0,,1
 134,The Walking Dead,BG_TfAgYrKo,0,,2
 135,Scorpion King,39R8mgCsdm0,0,,1
-136,Sieme sense,Pv2jDD1OP4M,0,,1
-137,DeadPool,ltbd6F280_k,0,,1
+136,Ghost Whisperer,sXDeWw2aItA,0,,2
+137,DeadPool,CX11yw6YL1w,0,,1,ltbd6F280_k
 138,Scorpion,Ct46cZeA9fM,0,,2
-137,Stranger Things,Jmv5pTyz--I,0,,2
-138,Charlie et la Chocolaterie,lsDl7NxcprA,0,,1
 139,Un Indien dans la ville,DGXLi4MQxS8,0,,1
 140,Une Nuit en Enfer,GHhQyt8BtUo,0,,1
-141,Vendredi 13,mZKiYgZyQ1c,0,,1
-142,Freddy,hYPoDFil1r0,0,,1
+141,Vendredi,xR8oke8rzp8,0,,1
+142,Freddy,5xymSwhhY1w,0,,1
 143,Cheky,oAeB7-cnvvM,0,,1
+144,Sisi Imperatrice,wrvh9fX5ilQ,5,,1
 145,Halloween,gqVyois9mp4,0,,1
 146,Scream,DdRgmUGHv3Q,0,,1
 147,It,5zsuSfjyXB4,0,,1
 148,Hellraiser,60_A2gvgcqg,0,,1
 149,La Famille Addams,2sK9oxopj90,0,,2
-150,,La Famille Addams,4NBkH1lxlVA,09,,1
+150,La Famille Addams,4NBkH1lxlVA,09,,1
 151,I Robots,CGGr6aohGR0,0,,1
 152,Les Dents de la Mer,g18907r3w7A,0,,1
 153,Indespeadence Day,EMjvqPJ5tKY,0,,1
@@ -161,22 +160,48 @@ id,titre,lienYT,temp,img,idTheme
 159,Sister Act,VPpd-6X3tEo,04,,1
 160,Il faut sauver le soldat Ryan,vizCmXNkVhk,0,,1
 161,Un Gars une Fille,WVTAA0J6E0k,0,,2
-162,Iron man,F1Y5fg7l1PI,0,,1
+162,Iron man,Yo9LK2dH8XM,0,,1
 163,Doctor Strange,O6Gkdme2bck,0,,1
 164,Les Gardiens de la Galaxy,Kt-tLuszKBA,0,,1
 165,V pour Vendeta,_oUppYsAnco,0,,1
 166,Le silence des agneaux,u8ob-M7fHNw,0,,1
 167,Maman j ai rater l avion,_bVOuOnO6mY,0,,1
-168,Mrs Doubtfire,2fR_l-GFG3s,0,,1
+168,Mrs Doubtfire,jAHgDtxM-RU,10,,1
 169,The Ring,ARANSQ15Vrk,0,,1
 170,The Grudge,CuDtoGRzYE4,0,,1
-171,Transformers,0_FHPJIhNBw,0,,1
+171,Transformers,0_FHPJIhNBw,45,,1
 172,le Transporter,Xoj98nHniFo,0,,1
 173,2001 Odyssee de l espace,5HjTXZPnYso,0,,1
 174,28 jour plus tard,DbwlGv9SWfY,0,,1
-175,Rec,iDkYPDHi3-Q,0,,1
+175,Medium,2glQrP4FjlY,0,,2
 176,Resident Evil,HpGQaUZ5Qzs,0,,1
 177,Mortal Kombat,EAwWPadFsOA,0,,1
-178,Robocop,Kb1_38445vA,0,,1
+178,Robocop,Kb1_38445vA,20,,1
 179,Star Trek,EWSp5ijOOfk,0,,1
 180,Psychose,bNIO77AnqpM,04,,1
+181,Stranger Things,Jmv5pTyz--I,0,,2
+182,Charlie et la Chocolaterie,lsDl7NxcprA,0,,1
+183,la penthere rose,m53QIt5uChM,0,,1
+184,la soif de l'or,uJn98NyrIJE,0,,1
+185,les Bronzer 1,n_M-Vr9MwDs,0,,1
+186,les sous doués,5ndzd3ErizY,0,,1
+187,Amour Gloire et Beaute,_vKGUyICu08,0,,1
+188,Blade,cNOP2t9FObw,0,,1
+189,UnderWorld,6lrxLkLn7sc,70,,1
+190,scary movie,S3GB9fv2-4A,0,,1
+191,The Witcher,E7WS6po_f8I,0,,2
+192,Hawaii 5-0,SEa0xCS-mlk,0,,2
+193,Supercopter,WSI4lgekVOM,0,,2
+194,K2000,noUgoO8D6vQ,0,,2
+195,Silent Hill,e8QTDnqWAEk,0,,1
+196,Les Experts Miami,WtN8KH_cz9o,0,,2
+197,Les Experts Manhattan,fEvfFGhyKE4,0,,2
+198,Teen Wolf,ZSTMa016Sc0,0,,2
+199,Shadowhunters,bkKsSbm_4WM,45,,2
+200,Walker Texas Ranger,_YQlb247nIg,0,,2
+201,Les Ailes de l'Enfer,AIzLHtHNFQU,0,,1
+202,60 secondes chrono,x2GQ5xmRjto,0,,1
+203,Squid Game,YaZbrXAs5Wg,0,,2
+204,Un souption de Magie,4aO-I41CzfQ,48,,2
+
+

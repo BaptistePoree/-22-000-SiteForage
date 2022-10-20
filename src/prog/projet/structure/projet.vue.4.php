@@ -4,6 +4,10 @@
  * 
  */
 ?>
+<a href="?action=ProjetId&key=4&testAudio=1">
+    testAudio
+</a>
+
 <!-- <div class="body projet"> -->
 <!-- <div class="fond compteur">
         <div id="compteur" class="ecriture compteur textCentreEcrant textMidel text20px"> </div>
@@ -108,7 +112,8 @@
 </head> -->
 
 <body class="fondBlindTest">
-    <iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="♫Avatar Soundtrack♫" src="https://www.youtube.com/embed/pNfMOtPywCM?autoplay=1&amp;disablekb=1&amp;start=0&amp;origin=https%3A%2F%2Fastucesweb.fr&amp;enablejsapi=1&amp;widgetid=3" width="0" height="0" frameborder="0"></iframe>
+    <!-- <iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="♫Avatar Soundtrack♫" src="https://www.youtube.com/embed/pNfMOtPywCM?autoplay=1&amp;disablekb=1&amp;start=0&amp;origin=https%3A%2F%2Fastucesweb.fr&amp;enablejsapi=1&amp;widgetid=3" width="0" height="0" frameborder="0"></iframe> -->
+
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/4MR6D7tL38U?controls=0&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     <!-- <div id="lll" style="display:none;height:0;visibility:hidden"><audio controls="" loop="">
             <source src="../suport/projet4/media/Le_Parrain.mp3" type="audio/mp3">
@@ -158,14 +163,14 @@
 </body>
 
 </br>
-<!--  <body style="background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 24, 54) 49.9%, rgb(0, 0, 0) 50%) 0% 0% / 200% 100%; animation: 92s linear 0s infinite normal none running BGCountdown;">
-    <iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="♫Avatar Soundtrack♫" src="https://www.youtube.com/embed/Jxq_133jEtQ?autoplay=1&amp;disablekb=1&amp;start=45&amp;origin=https%3A%2F%2Fastucesweb.fr&amp;enablejsapi=1&amp;widgetid=3" width="0" height="0" frameborder="0"></iframe>
-    <div id="lll" style="display:none;height:0;visibility:hidden"><audio controls="" loop="">
+<!--  <body style="background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 24, 54) 49.9%, rgb(0, 0, 0) 50%) 0% 0% / 200% 100%; animation: 92s linear 0s infinite normal none running BGCountdown;">-->
+<!-- <iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="♫Avatar Soundtrack♫" src="https://www.youtube.com/embed/Jxq_133jEtQ?autoplay=1&amp;disablekb=1&amp;start=45&amp;origin=https%3A%2F%2Fastucesweb.fr&amp;enablejsapi=1&amp;widgetid=3" width="0" height="0" frameborder="0"></iframe> -->
+<!-- <div id="lll" style="display:none;height:0;visibility:hidden"><audio controls="" loop="">
             <source src="blindtest.mp3" type="audio/mp3">
         </audio></div>
     <div class="valign" id="valignDiv">
         <div id="start" style="display: block;">
-            <div id="albumImg" class="autoMargin"><img src="https://i.ytimg.com/vi/Jxq_133jEtQ/hqdefault.jpg" class="ImgSize"></div>
+            <div id="albumImg" class="autoMargin"><img src="https://i.ytimg.com/vi/____/hqdefault.jpg" class="ImgSize"></div>
             <h3>La bonne réponse était : <strong id="bonneRep">Avatar</strong></h3><br><button onclick="startSong(3)" id="startButton">Extrait suivant</button><br>
             <h4>Votre score : <strong id="screenScore" class="scoreB">937</strong></h4>
         </div>
@@ -205,3 +210,42 @@
     <script src="bt-js.js.php" crossorigin="anonymous"></script>
 
 </body> -->
+<?php array_shift($tableauBdd); ?>
+<div class="audioTest" style="display:none;">
+
+</div>
+<table>
+    <tbody>
+        <tr>
+            <?php $nb = 1 ?>
+            <?php foreach ($tableauBdd as $test) : ?>
+
+                <td>
+                    <div class="ImgTest" id='<?= $test[1] ?>'>
+                        <div class="<?= $test[2]; ?>" id="<?= $test[3]; ?>"></div>
+                        
+                        <div> <img src="https://i.ytimg.com/vi/<?= $test[2] ?>/hqdefault.jpg" class="ImgSize"> </div>
+                        <h3 class="nom"><?= $test[1]; ?></h3>
+                        <!-- <?php //if ($test[0] === '13') : 
+                                ?> -->
+                        <iframe width="480" height="360" src="https://www.youtube.com/embed/<?= $test[2] ?>?start=<?= $test[3]; ?>&amp;" title="<?= $test[1] ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <iframe id="player" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="<?= $test[1] ?>" src="https://www.youtube.com/embed/<?= $test[2] ?>?autoplay=1&amp;disablekb=1&amp;start=<?= $test[3]; ?>&amp;origin=https%3A%2F%2Fastucesweb.fr&amp;enablejsapi=1&amp;widgetid=3" width="0" height="0" frameborder="0"></iframe> -->
+                        <!-- <?php //endif; 
+                                ?> -->
+                </td>
+
+                <?= ($nb % 3 === 0) ? '</tr><tr>' : ''; ?>
+                <?php $nb++ ?>
+                </div>
+
+            <?php endforeach; ?>
+        </tr>
+    </tbody>
+</table>
+
+
+
+<!-- <pre>
+    <?php //print_r($tableauBdd); 
+    ?>
+</pre> -->

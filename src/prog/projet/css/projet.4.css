@@ -2,3 +2,71 @@
     background: gray /* linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 24, 54) 49.9%, rgb(0, 0, 0) 50%) 0% 0% / 200% 100%*/;
     animation: 92s linear 0s infinite normal none running BGCountdown;
 }
+
+a.cellLien {
+    text-align: center;
+    /* font-size: 2rem; */
+    width: 25%;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 3;
+
+    /* border: 1px solid #000;
+        padding: 1px; */
+}
+
+.timeClock
+/* .timeClockPaused */
+{ 
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 3.5em;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+
+#tpsVal {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+/* .timeClock::after {
+    border-right-color: var(--mainC);
+    animation: spin-opacity 1s infinite reverse linear;
+} */
+
+/* .timeClock::before,
+.timeClock::after,
+.timeClockPaused::before,
+.timeClockPaused::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-right-color: transparent;
+} */
+
+/* .timeClock::before {
+    border-left-color: var(--mainC);
+    -webkit-animation: spin-opacity 2s infinite linear;
+    animation: spin-opacity 2s infinite linear;
+} */
+
+
+
+/* .timeClock::after {
+    border-right-color: var(--mainC);
+    animation: spin-opacity 1s infinite reverse linear;
+} */

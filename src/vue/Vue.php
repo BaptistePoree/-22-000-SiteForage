@@ -50,17 +50,17 @@ class Vue
         $this->content .= ob_get_clean();
     }
 
-    public function makeProjetId($get)
+    public function makeProjetId($get, $tableauBdd=null)
     {
-        $this->tableCss['projet'] = ['projet.4'];
-        $this->tableJs['boot']['projet'] = ['projet.4'];
+        $this->tableCss['projet'] = ['projet.'.$get['key']];
+        $this->tableJs['boot']['projet'] = ['projet.'. $get['key']];
         $this->titre = "Vue Projet";
         ob_start();
-        require_once('./prog/projet/structure/projet.vue.'.$get['key'].'.php');
+        require_once('./prog/projet/structure/projet.vue.test.'.$get['key'].'.php');
         $this->content .= ob_get_clean();
     }
 
-    public function render()
+    public function render($afficheNav)
     {
         $this->tableCss['general'] = ['root', 'general', 'divTail'];
         $this->tableCss['menu'] = ['menu'];
@@ -71,8 +71,11 @@ class Vue
 
         require_once('./prog/general/structure/top.vue.php');
         
-        $this->tableNav = $this->tableNavInstance->getNav();
-        require_once('./prog/menu/structure/menu.vue.php');
+        if($afficheNav)
+        {
+            $this->tableNav = $this->tableNavInstance->getNav();
+            require_once('./prog/menu/structure/menu.vue.php');
+        }
         
         echo $this->content;
         $this->table->setCss($this->tableCss, 'Module');

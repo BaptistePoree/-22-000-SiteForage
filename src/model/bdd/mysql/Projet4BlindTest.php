@@ -3,15 +3,15 @@
 require_once("model/bdd/InterfaceStorage.php");
 require_once("model/bdd/imageData/ImageDataProjet4BlindTest.php");
 
-class ListeProjet //implements InterfaceStorage
+class Projet4BlindTest //implements InterfaceStorage
 {
     protected $vue;
-    protected $listeprojet;
+    protected $projet;
 
     public function __construct(Vue $vue = null)
     {
         $this->vue = $vue;
-        $this->listeprojet = $this->initTableau();
+        $this->projet = $this->initTableau();
     }
 
     public function create(Object $c)
@@ -24,7 +24,7 @@ class ListeProjet //implements InterfaceStorage
 
     public function getAll()
     {
-        return $this->listeprojet;
+        return $this->projet;
     }
 
     public function setId($id, Object $c)
@@ -39,7 +39,7 @@ class ListeProjet //implements InterfaceStorage
     {
     }
 
-    private function initTableau($ficher = './../bdd/idee_projet.csv')
+    private function initTableau($ficher = './../bdd/audio_projet4.csv')
     {
         // var_dump(file($ficher));
         // var_export($this->initTableauCsvEntier(file($ficher)));

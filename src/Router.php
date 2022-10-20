@@ -13,6 +13,7 @@ class Router
         $action_get = key_exists('action', $_GET) ? $_GET['action'] : 'home';
 
         try {
+            $nav = true;
             switch ($action_get)
             {
                 case 'Liste':
@@ -22,7 +23,16 @@ class Router
                     $vue->makeProjet();
                     break;
                 case 'ProjetId':
-                    $vue->makeProjetId($_GET);
+                    switch($_GET['key'])
+                    {
+                        case '4':
+                            $controle->makeProjet4($_GET);
+                            $nav = false;
+                            break;
+                        default:
+                            $vue->makeProjetId($_GET);
+                            break;
+                    }
                     break;
                 default:
                     $vue->makehomePage();
@@ -32,7 +42,7 @@ class Router
             //TODO : page d'erreur;
         }
         
-        $vue->render();
+        $vue->render($nav);
     }
 }
 
