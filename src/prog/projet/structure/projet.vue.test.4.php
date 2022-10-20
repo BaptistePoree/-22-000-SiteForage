@@ -10,13 +10,21 @@ $test = $tableauBdd[$id];
 // print_r($test);
 ?>
 
-<a class="cellLien" href="?action=ProjetId&key=<?= $get['key'] ?>&testAudio=<?= ($id - 1 > 0) ? $id - 1 : 1; ?>">--</a>
+<a class="cellLien previous" href="?action=ProjetId&key=<?= $get['key'] ?>&testAudio=<?= ($id - 1 > 0) ? $id - 1 : 1; ?>">
+    <?php require_once("./prog/general/img/blindTest/previous.svg") ?>
+</a>
 
-<div class="ImageTest" style="display:none;"> <img src="https://i.ytimg.com/vi/<?= $test[2] ?>/hqdefault.jpg" class="ImgSize"> </div>
+<div class="ImgTest" style="display:none;">
+    <img src="https://i.ytimg.com/vi/<?= $test[2] ?>/hqdefault.jpg" class="ImgSize">
+</div>
 
-<div class="Test"> <?php require_once("./prog/general/img/help/help-3.svg") ?> </div>
+<div class="Test">
+    <?php require_once("./prog/general/img/help/help-3.svg") ?>
+</div>
 
-<a class="cellLien" href="?action=ProjetId&key=<?= $get['key'] ?>&testAudio=<?= $id + 1 ?>">++</a>
+<a class="cellLien next" href="?action=ProjetId&key=<?= $get['key'] ?>&testAudio=<?= $id + 1 ?>">
+    <?php require_once("./prog/general/img/blindTest/next.svg") ?>
+</a>
 
 <div>
     <h3 class="nom"><?= $test[0] . ') ' . $test[1]; ?></h3>
