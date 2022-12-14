@@ -1,5 +1,5 @@
 <?php
-
+require_once("Config.php");
 require_once("Router.php");
 session_start();
 error_reporting(E_ALL);
