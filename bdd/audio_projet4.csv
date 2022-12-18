@@ -20,11 +20,11 @@ id,titre,lienYT,temp,img,idTheme
 19,Forrest Gump,FcOt6mfjxeA,0,,1
 20,Sherlock Holmes,oXLodky50zM,0,,1
 21,Bad Boys,f8HtmFtGSQo,0,,1
-22,The Mask,l4XHcZR0cjY,06,,1
+22,The Mask,l4XHcZR0cjY,06,,1,DjWLA1zDwjs,35
 23,Game of Thrones,s7L2PVdrb_8,0,,2
 24,Ghost,z9y4gaXNi5A,0,,1
 25,Dirty Dancing,o3NndBTqC3Y,0,,1
-26,Flashdance,aclyuqS1MmA,0,,1
+26,Flashdance,8OyRL48ADjQ,0,,1
 27,Il etait une fois dans l'ouest,rRexqa3J4CM,0,,1
 28,Le Bon La Brute et le Truand,9NMr0paWUCQ,0,,1
 29,Le Seigneur des Anneaux,PjJa9ZeoY8s,0,,1
@@ -42,7 +42,7 @@ id,titre,lienYT,temp,img,idTheme
 41,Mac Gyver,lc8RFPZUkiQ,0,,2
 42,Friends,d8IcmtNolXI,0,,2
 43,Madame est servie,jfbdxxRKj9Q,0,,2
-44,Chapeau melon et bottes de cuir,vHS_k33r88U,0,,2
+44,Chapeau melon et bottes de cuir,BGmovvti5Uc,36,,2
 45,Premiers Baisers,1DiPaBJcVWo,05,,2
 46,Helene et les garcon,_HzPiYBBjGg,0,,2
 47,Braveheart,9AN04imFDK8,0,,1
@@ -65,13 +65,13 @@ id,titre,lienYT,temp,img,idTheme
 64,Lois Supperman,3pkSTDtkQSw,0,,2
 65,Matrix,XbxZargtXug,28,,1
 66,Kill Bill,nsgHyzwmbnQ,0,,1
-67,la ligne verts,S5Lwy3nVg1I,0,,1
+67,la ligne verte,S5Lwy3nVg1I,0,,1
 68,Tron,M4dUiBfMQVU,0,,1
 69,L Exorcist,geFhtD-ZXoA,0,,1
 70,Pretty Woman,JPrLgP7ja64,0,,1
 71,La Boum,WY-5R1UD4M8,0,,1
 72,Ma Famille D Abord,GWBoM9r8yjE,0,,2
-73,SODA,waXQlSVTnTc,0,,2
+73,R.I.S. Police Scientifique,rPWb7TZ8bJU,0,,1
 74,Les Feux De l Amour,DSBofIik5Jw,0,,2
 75,Nos Chers Voisins,Srv6gOOISI0,0,,2
 76,Smallville,HJYoZG7ZMaU,03,,2
@@ -226,4 +226,4 @@ id,titre,lienYT,temp,img,idTheme
 225,L'avare,DFwNgbpF9bw,0,,1
 226,La grande Vadrouille,ljXbTiof-hU,0,,1
 227,le Corniaud,5O0s1X0RgBw,0,,1
-228,R.I.S. Police Scientifique,rPWb7TZ8bJU,0,,1
+
