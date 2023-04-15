@@ -20,7 +20,7 @@ class Router
                     $controle->makeListePage();
                     break;
                 case 'Projet':
-                    $vue->makeProjet();
+                    $controle->makePageProjet($_GET);
                     break;
                 case 'ProjetId':
                     switch($_GET['key'])
@@ -30,7 +30,7 @@ class Router
                             $nav = false;
                             break;
                         default:
-                            $vue->makeProjetId($_GET);
+                            $controle->makePageProjet($_GET);
                             break;
                     }
                     break;

@@ -1,0 +1,120 @@
+ .fondBlindTest{
+     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 24, 54) 49.9%, rgb(0, 0, 0) 50%) 0% 0% / 200% 100% ;
+     animation: 92s linear 0s infinite normal none running BGCountdown; 
+} 
+
+.timeClock
+{ 
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 3.5em;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.2);
+    color: #000;
+    background-color: #d0d3d4;
+    text-align: center;
+}
+
+span.timer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+/* -------------- Bouton Page Extrait -------------- */
+
+button {
+    border: none;
+}
+
+button:hover {
+    background-color: inherit;
+    padding-inline: inherit;
+}
+
+/* -------------- Image Central -------------- */
+
+div.Test, 
+div.ImgTest,
+.cellLien
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+div.Test svg {
+    transform: translate(0%, 50%);
+    position: absolute;
+    width: 50%;
+}
+
+div.ImgTest img {
+    transform: translate(0%, 60%);
+    position: absolute;
+    /* width: 20%; */
+}
+
+.cellLien.previous {
+    transform: translate(0%, 50%);
+    /* margin-right: 10%; */
+    position: absolute;
+}
+
+.cellLien.next {
+    transform: translate(0%, 50%);
+    margin-left: 85%;
+    position: absolute;
+}
+svg {
+    fill: #d0d3d4;    
+}
+
+.cellLien{
+    width: 15%
+}
+
+/* -------------- Text Titre -------------- */
+
+div.styleTitre {
+    width: 50%;
+    
+    /* Texte centrale */
+    display: flex;
+    justify-content: center;
+    
+    /* Encadre */
+    border: 5px solid #d0d3d4;
+    color : #d0d3d4;
+}
+
+/* div.styleTitre h1.nom{
+    height: 50px;
+} */
+
+div.titre {
+    /* Position */
+    transform: translateY(1000%) translateX(50%);
+}
+
+div.indice {
+    /* Position */
+    transform: translateY(100%) translateX(50%);
+}
+
+
+/* -------------- Couleur des Image -------------- */
+
+/* svg .help-3,
+svg .previous.detail,
+svg .next.detail{
+    fill: greenyellow;
+} */
+

@@ -1,0 +1,27 @@
+.body.projet {
+    background: #404f6d;
+    height: 85.5vh;
+}
+
+.divTable {
+    display: table;
+    padding-top: 20px;
+    padding-left: 20px;
+    /* border: 1px solid #000 */
+}
+
+.divTableBody {
+    display: table-row-group;
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.divTableCell,
+.divTableCell a {
+    /* border: 1px solid #999999; */
+    display: table-cell;
+    padding: 3px 10px;
+    color: azure;
+}
