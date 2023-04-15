@@ -1,0 +1,87 @@
+id,nom,idStatu,chemin_vue,chemin_git
+0,QRCode,1,NULL,NULL
+1,Code Bare,1,NULL,NULL
+2,Yamse,1,NULL,NULL
+3,Blin Test,2,NULL,NULL
+4,7 famille,1,NULL,NULL
+5,2048,1,NULL,NULL
+6,Algorithme de recherche dichotomique,1,NULL,NULL
+7,Bataille Navales,1,NULL,NULL
+8,Belotte,1,NULL,NULL
+9,Black jack,1,NULL,NULL
+10,Carte des Reseau Social,1,NULL,NULL
+11,Chate Reseau,1,NULL,NULL
+12,Code Snake ,1,NULL,NULL
+13,Construire un site web HTML5 de base ,1,NULL,NULL
+14,Construisez votre propre calculatrice classique,1,NULL,NULL
+15,Construisez votre propre calculatrice heures,1,NULL,NULL
+16,Construisez votre propre calculatrice volume distance,1,NULL,NULL
+17,Conteur,1,NULL,NULL
+18,Conversion de poids ,1,NULL,NULL
+19,Crapet,1,NULL,NULL
+20,Dark Mode,1,NULL,NULL
+21,Demineur,1,NULL,NULL
+22,Développer un Bot en Python (discord),1,NULL,NULL
+23,Echecs ,1,NULL,NULL
+24,Filelight,1,NULL,NULL
+25,Jeux de Dame,1,NULL,NULL
+26,Jeux loi,1,NULL,NULL
+27,Kakuro,1,NULL,NULL
+28,Kakuro solution,1,NULL,NULL
+29,Le juste prix,1,NULL,NULL
+30,Logiciel de Commande,1,NULL,NULL
+31,Logiciel de stockage ,1,NULL,NULL
+32,Logiciel de Ticket de caisse,1,NULL,NULL
+33,Mah-jong a 4,1,NULL,NULL
+34,Mah-jong solo,1,NULL,NULL
+35,Memoire,1,NULL,NULL
+36,Meteo,1,NULL,NULL
+37,Morpion,1,NULL,NULL
+38,Mot de passe,1,NULL,NULL
+39,Mots flecher,1,NULL,NULL
+40,Mots flecher Solution,1,NULL,NULL
+41,Nombres de la suite de Fibonacci,1,NULL,NULL
+42,Note,1,NULL,NULL
+43,Page Comptabilité,1,NULL,NULL
+44,Page Couleur,1,NULL,NULL
+45,Page Expérience Pro,1,NULL,NULL
+46,Page Galerie Image,1,NULL,NULL
+47,Page Galirie Projet,1,NULL,NULL
+48,Page Générait un Cahier des Charge Automatiquement,1,NULL,NULL
+49,Page Généré Image Comprtance,1,NULL,NULL
+50,Page inscription,1,NULL,NULL
+51,Page Loging,1,NULL,NULL
+52,Page Paramettre,1,NULL,NULL
+53,Page Projet ,1,NULL,NULL
+54,Page Recette de Cuisine,1,NULL,NULL
+55,Pendu,1,NULL,NULL
+56,Petit cheveau,1,NULL,NULL
+57,Pierre Papier Ciseaux,1,NULL,NULL
+58,Pocker,1,NULL,NULL
+59,Pro note,1,NULL,NULL
+60,Profil cart visite,1,NULL,NULL
+61,Puisance 4,1,NULL,NULL
+62,QR Code,1,NULL,NULL
+63,questionnaire,1,NULL,NULL
+64,Ramy,1,NULL,NULL
+65,Rumy,1,NULL,NULL
+66,Site arbre Logique,1,NULL,NULL
+67,Site Comptabilité,1,NULL,NULL
+68,Site Couleur,1,NULL,NULL
+69,Site fiche Afpa,1,NULL,NULL
+70,Site Genere QRCode,1,NULL,NULL
+71,Site Monter en lumier D2,1,NULL,NULL
+72,Site Personnage D2,1,NULL,NULL
+73,Site Personnage R6,1,NULL,NULL
+74,Site Quiz,1,NULL,NULL
+75,Site ToDoListe avec API,1,NULL,NULL
+76,Solitaire,1,NULL,NULL
+77,Sudoku ,1,NULL,NULL
+78,Sudoku Solution,1,NULL,NULL
+79,Super solitaire,1,NULL,NULL
+80,Tablle -> equiation => graphique,1,NULL,NULL
+81,Todo,1,NULL,NULL
+82,Treemap,1,NULL,NULL
+83,Uno,1,NULL,NULL
+84,Visualisation Arbre recherche,1,NULL,NULL
+85,Visualiser de la data avec Python,1,NULL,NULL
