@@ -4,7 +4,7 @@ Site qui fait un listing des projet en idee/cour de création/fini
 
 ## Projet Atchitecture
 
-```bash 
+<pre><code>
 FORGE /
   ├── src /
   │    ├── bdd / (idee de Bdd)
@@ -90,11 +90,12 @@ FORGE /
   ├── .gitignore
   ├── CHANGELOG.md
   └── README.md
-```
+</code></pre>
 
 ### Legende du CHANGELOG
-
+<pre><code>
     [SITE][MODIFICATION] (#NumProjet)(Element) détail
+</code></pre>
 
 <pre><code>
 CHANGELOG -
