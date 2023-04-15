@@ -17,3 +17,7 @@
 .displaynone {
     display: none;
 }
+
+.textCentreCelule {
+    text-align: center;
+}

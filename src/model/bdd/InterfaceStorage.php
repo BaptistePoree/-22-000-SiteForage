@@ -14,6 +14,7 @@ interface InterfaceStorage {
 
 	public function deleteAll();
 
+
 }
 
 ?>

@@ -9,7 +9,7 @@
 
 
     <div class="divGeneralTableau divTable">
-        <div class="divTableHeading">
+        <div class="divTableHeading textCentreCelule">
             <div class="divTableRow">
                 <div class="div5 divTableCell">
                     <div class="divTableCellText">
@@ -32,33 +32,19 @@
     </div>
     <div class="scroller">
         <div class="divGeneralTableau divTable ">
-            <!-- <div class="scroller"> -->
             <div class="divTableBody">
-                <?php foreach ($tableauProjet as $key => $valeur) : ?>
-                    <?php if ($key !== 0) : ?>
-                        <div class="divTableRow">
-                            <div class="div5  divTableCell"> <?= $key ?> </div>
-                            <div class="div70 divTableCell"> <a class="cellLien" href="?action=Projet&nom=<?=$valeur[0]?>&key=<?=$key?>"> <?= $valeur[0] ?> </a> </div>
-                            <div class="div14 divTableCell"> <?= $valeur[1] ?> </div>
-                        </div>
-                    <?php endif; ?>
+                <!-- <?php print_r($tableauProjet) ?> -->
+                <?php foreach ($tableauProjet as $ligne) : ?>
+                    <div class="divHaut2em divTableRow">
+                        <div class="div5  divTableCell"> <?= $ligne->getId() ?> </div>
+                        <div class="div70 divTableCell textCentreCelule"> <a class="cellLien" href="?action=Projet&nom=<?= $ligne->getNomProjet() ?>&key=<?= $ligne->getId() ?>"> <?= $ligne->getNomProjet() ?> </a> </div>
+                        <div class="div14 divTableCell textCentreCelule"> <?= $ligne->getEtat() ?> </div>
+                    </div>
                 <?php endforeach ?>
             </div>
         </div>
     </div>
     <div class="divGeneralTableau divTable">
-        <!-- <div class="blueTable outerTableFooter">
-            <div class="divTableFoot">
-                <div class="links">
-                    <a href="#">&laquo;</a>
-                    <a class="active" href="#">1</a>
-                    <a href="#">2</a>
-                    <a href="#">3</a>
-                    <a href="#">4</a>
-                    <a href="#">&raquo;</a>
-                </div>
-            </div>
-        </div> -->
     </div>
 
 </div>

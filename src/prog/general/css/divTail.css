@@ -37,3 +37,13 @@
 .div1000px {
     width: 1000px;
 }
+
+/* dive Placer */
+
+.divDroit {
+    text-align: right;
+}
+
+.divHaut2em {
+    line-height: 2em;
+}

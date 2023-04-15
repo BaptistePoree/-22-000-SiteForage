@@ -30,14 +30,23 @@ class TableauGeneral{
         foreach ($tablecss as $key => $liste) {
             foreach ($liste as $nomFicher) {
                 $res = $this->cheminDebut . $key . '/css/' . $nomFicher . '.css';
+                $action = 'listSRC';
                 if ($key === 'general' || $key === 'menu') 
-                {
-                    array_push($this->css['Fixe']['listSRC'], add_version($res));
-                }
+                {   $lienPosition = 'Fixe'; }
                 elseif ($key === 'projet' || $key === 'liste' || $key === 'home')
-                {
-                    array_push($this->css['Module']['listSRC'], add_version($res));
+                {   $lienPosition = 'Module';   }
+                elseif ($key === 'projetIdentiter') 
+                { 
+                    $res = $this->cheminDebut . 'projet/projet_identiter/css/projet.css';
+                    $lienPosition = 'Module';
                 }
+                elseif ($key === 'projetNb') 
+                {
+                    $res = $this->cheminDebut . 'projet/projet_' . $nomFicher . '/css/projet.' . $nomFicher . '.css';
+                    $lienPosition = 'Module';
+                    $action = 'listSRC';
+                }
+                array_push($this->css[$lienPosition][$action], add_version($res));
             }
         }
     }
@@ -58,7 +67,11 @@ class TableauGeneral{
 
             foreach ($table as $key => $liste) {
                 foreach ($liste as $nomFicher) {
-                    $res = $this->cheminDebut . $key . '/js/' . $nomFicher . '.js';
+                    if ($key === 'projetNb')
+                    {   $res = $this->cheminDebut . 'projet/projet_' . $nomFicher . '/js/projet.' . $nomFicher . '.js'; }
+                    else 
+                    {   $res = $this->cheminDebut . $key . '/js/' . $nomFicher . '.js'; }
+                    
                     array_push($this->js[$lien], add_version($res));
                 }
             }

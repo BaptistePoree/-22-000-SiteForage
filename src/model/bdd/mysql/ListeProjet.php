@@ -33,7 +33,7 @@ class ListeProjet //implements InterfaceStorage
     public function deleteAll()
     { }
 
-    private function initTableau($ficher = './../bdd/idee_projet.csv')
+    private function initTableau($ficher = './bdd/idee_Projet/idee_projet.csv')
     {
         // var_dump(file($ficher));
         // var_export($this->initTableauCsvEntier(file($ficher)));
